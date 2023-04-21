@@ -1,5 +1,25 @@
 body {
+  background-image: url("/images/globe1.jpg");
+  background-size: cover;
+  font-family: monospace;
+}
+.container {
+  max-width: 700px;
+  margin: 30px auto 15px;
+  padding: 30px 35px;
+  border-radius: 20px;
+  background: #d7acd4;
+}
+h1 {
   text-align: center;
+}
+select {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: aliceblue;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
 }
 footer {
   text-align: center;
