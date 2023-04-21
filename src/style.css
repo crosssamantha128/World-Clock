@@ -1,6 +1,6 @@
 body {
   background-image: url("/images/globe1.jpg");
-  background-size: cover;
+  background-position: 65%;
   font-family: monospace;
 }
 .container {
@@ -8,7 +8,7 @@ body {
   margin: 30px auto 15px;
   padding: 30px 35px;
   border-radius: 20px;
-  background: #d7acd4;
+  background: rgb(145, 192, 241);
 }
 h1 {
   text-align: center;
