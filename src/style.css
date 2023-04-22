@@ -4,9 +4,9 @@ body {
   font-family: monospace;
 }
 .container {
-  max-width: 700px;
-  margin: 30px auto 15px;
-  padding: 30px 35px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 35px 20px 35px;
   border-radius: 20px;
   background: rgb(145, 192, 241);
 }
@@ -14,12 +14,33 @@ h1 {
   text-align: center;
 }
 select {
+  font-family: monospace;
   display: block;
   padding: 10px;
   width: 100%;
   border-radius: 5px;
   background-color: aliceblue;
   box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+.city {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed rgba(37, 39, 89, 0.2);
+}
+.place {
+  margin: 0 20px;
+  text-align: center;
+}
+h2 {
+  font-size: 35px;
+  margin: 0 0 10px;
+}
+.time {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px;
 }
 footer {
   text-align: center;
