@@ -37,7 +37,8 @@ h2 {
   font-size: 35px;
   margin: 0 0 10px;
 }
-.time {
+.sydneyTime,
+.londonTime {
   font-size: 30px;
   font-weight: bold;
   margin: 20px;
