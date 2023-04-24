@@ -12,6 +12,7 @@ body {
 }
 h1 {
   text-align: center;
+  font-size: 38px;
 }
 select {
   font-family: monospace;
