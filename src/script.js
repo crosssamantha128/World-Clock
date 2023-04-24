@@ -18,6 +18,8 @@ function updateTime() {
     londonTimeElement.innerHTML = londonTime.format("HH:mm a");
   }
 }
+updateTime();
+setInterval(updateTime, 1);
 
 function updateSelectCity(event) {
   let cityTimeZone = event.target.value;
@@ -34,10 +36,9 @@ function updateSelectCity(event) {
             <div class="date">${cityTime.format("Do MMMM YYYY")}</div>
           </div>
           <div class="time">${cityTime.format("HH:mm a")}</div>
-        </div>`;
+        </div>
+        <a href="/">Back</a>`;
 }
-updateTime();
-setInterval(updateTime, 1);
 
 let citySelectElement = document.querySelector("#citiesSelect");
 citySelectElement.addEventListener("change", updateSelectCity);
